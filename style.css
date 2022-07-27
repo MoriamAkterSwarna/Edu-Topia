@@ -5,3 +5,32 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+.carousel-item img {
+    width: 100%;
+    max-height: 90vh;
+    object-fit: cover;
+    background-color: rgba(0, 0, 0, 0.1);
+    background-blend-mode: darken;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item:after {
+    content: "";
+    display: block;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.carousel-caption {
+    z-index: 5;
+
+}
