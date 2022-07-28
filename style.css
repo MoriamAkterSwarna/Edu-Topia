@@ -37,3 +37,20 @@ body {
     height: 300px;
 
 }
+
+.accordion-questions {
+    width: 70%;
+}
+
+/* Mobile phone */
+@media only screen and (max-width:767px) {
+    .accordion-questions {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:991px) and (min-width:768px) {
+    .accordion-questions {
+        width: 100%;
+    }
+}
